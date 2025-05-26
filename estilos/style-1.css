@@ -1,0 +1,127 @@
+/*A cor de fundo da página*/
+*{
+    background-color: #CCCCCC;
+}
+/*O cabeçalho e o menu*/
+.header{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 50px;
+}
+.menu{
+    text-align: center;
+}
+/*Os botões*/
+.game{
+    width: 450px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.smartphone{
+    width: 450px;
+    height: 250px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: #252525;
+    padding: 20px;
+    background-color: #0066CC;
+}
+/*Os botões quando posicionado o mouse sobre eles*/
+a:hover{
+    background-color: #252525;
+    color: #FFFFFF;
+}
+/*O botão Voltar*/
+div.fixed{
+            position: fixed;
+            bottom: 0;
+            width: 10px;
+            right: 50%;
+            margin-bottom: 50px;
+}
+/*O botão Meu Trabalho*/
+div.relative{
+            position: relative;
+            left: 30px;
+            margin-top: 50px;
+}
+/*O título de cada página*/
+h2{
+    text-align: center;
+    border: solid 3px #c4c4c4;
+    color: #565656;
+    background-color: #c4c4c4;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+/*O texto das páginas Sobre Mim e Meus Trabalhos*/
+p{
+    text-align: left;
+    color: #CCCFFF;
+    background-color: #007788;
+    margin-top: 70px;
+}
+/*As tabelas das páginas Minha Formaão e Contato*/
+.title{
+    text-align: center;
+    border: solid 3px #42C7F1;
+    color: #FFFFFF;
+    background-color: #42C7F1;
+}
+.col-1{
+    border: solid 3px #FFBB88;
+    background-color: #FFBB88;
+}
+.col-2{
+    border: solid 3px #44BB00;
+    background-color: #44BB00;
+}
+[class*="col-"] {
+    text-align: center;
+    color: #FFFFFF;
+}
+.center{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+/*O formulário de contato*/
+.contato {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
